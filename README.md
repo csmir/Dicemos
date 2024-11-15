@@ -10,6 +10,13 @@ The primary tool in Discord for all things dice. Roll simple d6'es, or complex e
 
 `/roll` calculates your input (`formula: ...`) and provides a consise and accurate result. It is curated to a set of provided options (`options: ...`), which mutate the input or response as it sees fit.
 
+#### Example input:
+
+- `/roll`
+- `/roll formula:1d20`
+- `/roll options:rolls:5`
+- `/roll formula:1d20 options:secret`
+
 > Without arguments, this command will open a modal which allows for more extensive input specification. Some options do not support direct roll input, and instead need this modal to function.
 
 ### Roll Options
