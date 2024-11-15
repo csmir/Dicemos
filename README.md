@@ -1,19 +1,20 @@
 # Dicemos
+
 The primary tool in Discord for all things dice. Roll simple d6'es, or complex equations in any way you like. Extract all the details about the equation and review the results in your personal history.
 
-## Commands
+⚠️ To read about data usage, refer to the [privacy statement](PRIVACY.md). 
 
-- `help`: Displays information about Dicemos.
-- `profile`: View your profile, history and saved options.
-- `roll`: Calculates a dice formula.
-  - Without arguments, this command will open a modal which allows for more extensive input specification.
-  - This command accepts options. They are documented below.
-- `configuration`: Configure Dicemos for your guild. **(Administrator only!)**
-  - Extended configuration, such as reporting silenced die or blocking command execution in certain channels is done from here.
- 
-## Roll Options
+*This product is powered by [Netcord](https://github.com/NetCordDev/NetCord) and [Commands.NET](https://github.com/csmir/Commands.NET).*
 
-The `roll` command accepts `options`, formatted as the following:
+## Usage:
+
+`/roll` calculates your input (`formula: ...`) and provides a consise and accurate result. It is curated to a set of provided options (`options: ...`), which mutate the input or response as it sees fit.
+
+> Without arguments, this command will open a modal which allows for more extensive input specification. Some options do not support direct roll input, and instead need this modal to function.
+
+### Roll Options
+
+The `/roll` command accepts `options`, formatted as the following:
 
 #### Secret
 The roll will be hidden (ephemeral) from the channel and will only be visible to the user who rolled it.
@@ -107,3 +108,8 @@ The result will return the lowest rolled value.
 The result will return the number of rolls made.
 
 > `rolls`, `r`
+
+## Contributing
+
+Dicemos is not open source. There is no interest in open-source collaborations. 
+To report bugs or submit suggestions, make an issue here, or find me on Discord: [NET-work](https://discord.com/invite/T7hCvShAx5).
