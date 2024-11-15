@@ -1,5 +1,5 @@
 # 🎲 Dicemos
-
+### [Invite Dicemos to your servers!](https://discord.com/oauth2/authorize?client_id=1132013697401901076)
 The primary tool in Discord for all things dice. Roll simple d6'es, or complex equations in any way you like. Extract all the details about the equation and review the results in your personal history.
 
 ⚠️ To read about data usage, refer to the [privacy statement](PRIVACY.md). 
