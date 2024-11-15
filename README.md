@@ -1,4 +1,4 @@
-# Dicemos
+# 🎲 Dicemos
 
 The primary tool in Discord for all things dice. Roll simple d6'es, or complex equations in any way you like. Extract all the details about the equation and review the results in your personal history.
 
@@ -6,7 +6,7 @@ The primary tool in Discord for all things dice. Roll simple d6'es, or complex e
 
 *This product is powered by [Netcord](https://github.com/NetCordDev/NetCord) and [Commands.NET](https://github.com/csmir/Commands.NET).*
 
-## Usage:
+## 🧮 Usage:
 
 `/roll` calculates your input (`formula: ...`) and provides a consise and accurate result. It is curated to a set of provided options (`options: ...`), which mutate the input or response as it sees fit.
 
