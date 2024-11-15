@@ -29,8 +29,10 @@ The roll will be hidden (ephemeral) from the channel and will only be visible to
 > Flags: `secret`, `s`, `hidden`, `hide`, `h`
 
 #### Master
-> Flags: `master`, `gm`, `m`
+
 The roll will be rolled in private, notifying the users in the channel that a roll has been made.
+
+> Flags: `master`, `gm`, `m`
 
 #### Masked
 
